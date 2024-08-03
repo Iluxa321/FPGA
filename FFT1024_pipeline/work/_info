@@ -1,0 +1,195 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Program/Quartus/FFT32_pipeline
+vagu
+Z1 !s110 1638380626
+!i10b 1
+!s100 mHnHe_:7`CR2:1VeH<z5?1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[Id9<HG4Ld54hT_jdjf;m1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1638380273
+Z5 8F:/Program/Quartus/FFT32_pipeline/Verilog/fft_pipeline.v
+Z6 FF:/Program/Quartus/FFT32_pipeline/Verilog/fft_pipeline.v
+!i122 0
+L0 99 39
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1638380626.000000
+Z9 !s107 F:/Program/Quartus/FFT32_pipeline/Verilog/fft_pipeline.v|
+Z10 !s90 -reportprogress|300|-work|work|F:/Program/Quartus/FFT32_pipeline/Verilog/fft_pipeline.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vbutterfly
+R1
+!i10b 1
+!s100 V4W2AmYHPQP:Z`hF:Yc^90
+R2
+IdCcilolma0RBDZ1?0RLMh1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 210 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcontroller
+R1
+!i10b 1
+!s100 DC:LladCT[]HciJZM_d_K2
+R2
+ITjYnNE[G_WjYHb4CZ_U7h0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 245 83
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vdata_path
+R1
+!i10b 1
+!s100 0Vbzd2kGg6VndFF0]QP1O2
+R2
+IMfFjNFM@aLd07j`^d[bmG3
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 153 56
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vfft_pipeline
+R1
+!i10b 1
+!s100 >cn89YHhUJ<039Tj<;oP?0
+R2
+IT4=WB57@J0O3UURfkOD9[1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 95
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vrotate
+R1
+!i10b 1
+!s100 =10^mKKPZA8egMn[3Kk3c0
+R2
+IB8Xa77Ri]T5lg>JSino660
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 140 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtest_controller_and_agu
+!s110 1638380630
+!i10b 1
+!s100 gi<c7<n<IhMhaD:QYcU;j2
+R2
+I`Bm9:bjaIHG4QNo[D7jUE2
+R3
+R0
+w1638380556
+8F:/Program/Quartus/FFT32_pipeline/Testbench/test_controller_and_agu.v
+FF:/Program/Quartus/FFT32_pipeline/Testbench/test_controller_and_agu.v
+!i122 1
+L0 3 53
+R7
+r1
+!s85 0
+31
+!s108 1638380630.000000
+!s107 F:/Program/Quartus/FFT32_pipeline/Testbench/test_controller_and_agu.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/FFT32_pipeline/Testbench/test_controller_and_agu.v|
+!i113 1
+R11
+R12
+vtest_fft_pipeline2
+!s110 1638546220
+!i10b 1
+!s100 _J``1BmZhZ;NXj1>OS58O2
+R2
+ISVLz0[O];mM;nH?I1?B;S1
+R3
+R0
+w1638546157
+8F:/Program/Quartus/FFT32_pipeline/Testbench/test_fft_pipeline2.v
+FF:/Program/Quartus/FFT32_pipeline/Testbench/test_fft_pipeline2.v
+!i122 2
+L0 3 59
+R7
+r1
+!s85 0
+31
+!s108 1638546219.000000
+!s107 F:/Program/Quartus/FFT32_pipeline/Testbench/test_fft_pipeline2.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/FFT32_pipeline/Testbench/test_fft_pipeline2.v|
+!i113 1
+R11
+R12

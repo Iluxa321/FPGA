@@ -1,0 +1,12 @@
+N = 1024;
+k = 0 : N/2-1;
+a = sin(2*pi*k/N);
+b = cos(2*pi*k/N);
+a = bitand(int64(a*(2^15-1)), 2^16-1);
+b = bitand(int64(b*(2^15-1)), 2^16-1);
+b = bitshift(b, 16);
+ab = bitor(b,a);
+ab = bitand(ab, (2^32-1));
+fl = fopen('qwe.txt','w');
+fprintf(fl, '%x\n', ab);
+fclose(fl);

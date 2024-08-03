@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Feb 13 19:36:12 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : fft_pipeline
+Top-level Entity Name : fft_pipeline
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 554 / 49,760 ( 1 % )
+    Total combinational functions : 553 / 49,760 ( 1 % )
+    Dedicated logic registers : 254 / 49,760 ( < 1 % )
+Total registers : 254
+Total pins : 77 / 360 ( 21 % )
+Total virtual pins : 0
+Total memory bits : 102,460 / 1,677,312 ( 6 % )
+Embedded Multiplier 9-bit elements : 16 / 288 ( 6 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

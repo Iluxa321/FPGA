@@ -1,0 +1,279 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Program/Quartus/FFT1024_pipeline/Modelsim/sim
+vagu
+Z1 !s110 1682866557
+!i10b 1
+!s100 Y7QUB:<>[E@Hc>6TH8f253
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlI]2JX7AY2iQLZeM;o7Wz0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1651407177
+Z5 8../../Verilog/fft_pipeline.v
+Z6 F../../Verilog/fft_pipeline.v
+Z7 F..\..\Verilog\..\includes\fn.v
+!i122 1
+L0 112 64
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1682866557.000000
+Z10 !s107 ..\..\Verilog\..\includes\fn.v|../../Verilog/fft_pipeline.v|
+Z11 !s90 -reportprogress|300|../../Verilog/fft_pipeline.v|
+!i113 1
+Z12 tCvgOpt 0
+vbutterfly
+R1
+!i10b 1
+!s100 c]HzBmR;NkAAa]z9YL[5i2
+R2
+I@jXFnobf`8n9HdYFb`4^S0
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 458 39
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vcontroller
+R1
+!i10b 1
+!s100 <5aQ`gKK2AX28nliXd:IM1
+R2
+I?NjEMP6SE?zXfzFASJmFA3
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 498 86
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vdata_path
+R1
+!i10b 1
+!s100 5=<^@a@>:6aN22>YeG^;K0
+R2
+I88;G7`no<oF@I^dmPJ5;o3
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 313 107
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vdual_port_ram_single_clock
+R1
+!i10b 1
+!s100 a`3V:L`@ifZ2JE56[5J`P0
+R2
+IKBDEFkV?U_a;anz7F;bjm2
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 255 56
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vfft_pipeline
+R1
+!i10b 1
+!s100 RKE8@BH;FKaf[j6F0>k7b0
+R2
+I8<iEGcHd;2aH>X:VkEe=21
+R3
+R0
+R4
+R5
+R6
+R7
+!i122 1
+L0 1 116
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vmem_bank
+R1
+!i10b 1
+!s100 `I<jAQDDeFHi<D0L=8:TI3
+R2
+IDDzQ`?APVzmkE6:]>W_fR3
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 189 64
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vmy_rom
+R1
+!i10b 1
+!s100 a7^XK:3D:?:nGL[Zm`>]N0
+R2
+I^fB``j0?d>W@>JK?^5eni3
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 421 35
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vram
+R1
+!i10b 1
+!s100 B`z`oWoEm5GdUhW1EE:Ha0
+R2
+IChmY:KoNg070IOo3eJ:E>3
+R3
+R0
+w1644699524
+8../../Verilog/ram.v
+F../../Verilog/ram.v
+!i122 2
+L0 40 89
+R8
+r1
+!s85 0
+31
+R9
+!s107 ../../Verilog/ram.v|
+!s90 -reportprogress|300|../../Verilog/ram.v|
+!i113 1
+R12
+vrom
+R1
+!i10b 1
+!s100 iN]Y[9iF3h[f9?NdX<XQQ0
+R2
+Inaa^FbDK2b@ZA[bdd15Cz3
+R3
+R0
+w1644699541
+8../../Verilog/rom.v
+F../../Verilog/rom.v
+!i122 3
+L0 40 66
+R8
+r1
+!s85 0
+31
+R9
+!s107 ../../Verilog/rom.v|
+!s90 -reportprogress|300|../../Verilog/rom.v|
+!i113 1
+R12
+vrotate
+R1
+!i10b 1
+!s100 @zZZ`kRlKMXPUXjgKio1H0
+R2
+Izz^2nfm5z=1;<>:aIMX?S1
+R3
+R0
+R4
+R5
+R6
+R7
+!i122 1
+L0 170 25
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vtest_fft_pipeline2
+R1
+!i10b 1
+!s100 HV?60a_6@MNE7S@`0?i1V0
+R2
+ISOCWOl6eB@>z]HaNDRd:T1
+R3
+R0
+w1644770030
+8../../Testbench/test_fft_pipeline2.v
+F../../Testbench/test_fft_pipeline2.v
+F..\..\Testbench\..\includes\fn.v
+!i122 0
+L0 3 133
+R8
+r1
+!s85 0
+31
+R9
+!s107 ..\..\Testbench\..\includes\fn.v|../../Testbench/test_fft_pipeline2.v|
+!s90 -reportprogress|300|../../Testbench/test_fft_pipeline2.v|
+!i113 1
+R12

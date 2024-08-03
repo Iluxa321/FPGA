@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at fft_pipeline.v(467): object "B_re" differs only in case from object "b_re" in the same scope File: F:/Program/Quartus/FFT1024_pipeline/Verilog/fft_pipeline.v Line: 467
+Info (10281): Verilog HDL Declaration information at fft_pipeline.v(468): object "B_img" differs only in case from object "b_img" in the same scope File: F:/Program/Quartus/FFT1024_pipeline/Verilog/fft_pipeline.v Line: 468
+Info (10281): Verilog HDL Declaration information at fft_pipeline.v(504): object "reset" differs only in case from object "RESET" in the same scope File: F:/Program/Quartus/FFT1024_pipeline/Verilog/fft_pipeline.v Line: 504
+Info (10281): Verilog HDL Declaration information at fft_pipeline.v(506): object "done" differs only in case from object "DONE" in the same scope File: F:/Program/Quartus/FFT1024_pipeline/Verilog/fft_pipeline.v Line: 506
+Info (10281): Verilog HDL Declaration information at test_fft_pipeline2.v(10): object "load" differs only in case from object "LOAD" in the same scope File: F:/Program/Quartus/FFT1024_pipeline/Testbench/test_fft_pipeline2.v Line: 10
