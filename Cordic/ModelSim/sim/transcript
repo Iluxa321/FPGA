@@ -1,0 +1,46 @@
+# do ../test_cordic_hyp_mode.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:46:55 on May 10,2022
+# vlog -reportprogress 300 ../../Testbench/testbench_cordic_hyperbolic_mode.v 
+# -- Compiling module testbench_cordic_hyperbolic_mode
+# 
+# Top level modules:
+# 	testbench_cordic_hyperbolic_mode
+# End time: 19:46:55 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:46:55 on May 10,2022
+# vlog -reportprogress 300 ../../Verilog/cordic.v 
+# -- Compiling module cordic
+# -- Compiling module cordic_pipeline
+# -- Compiling module cordic_line_mode
+# -- Compiling module cordic_hyperbolic_mode
+# -- Compiling module cordic_hyperbolic_vector_mode
+# -- Compiling module cordic_pipeline_stage
+# -- Compiling module cordic_multiplier
+# -- Compiling module cordic_div
+# -- Compiling module cordic_pipeline_stage2
+# -- Compiling module cordic1
+# -- Compiling module cordic_stage
+# 
+# Top level modules:
+# 	cordic
+# 	cordic_pipeline
+# 	cordic_line_mode
+# 	cordic_hyperbolic_vector_mode
+# 	cordic_multiplier
+# 	cordic_pipeline_stage2
+# 	cordic1
+# End time: 19:46:55 on May 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench_cordic_hyperbolic_mode 
+# Start time: 19:46:55 on May 10,2022
+# Loading work.testbench_cordic_hyperbolic_mode
+# Loading work.cordic_hyperbolic_mode
+# ** Note: $stop    : ../../Testbench/testbench_cordic_hyperbolic_mode.v(38)
+#    Time: 530 ns  Iteration: 1  Instance: /testbench_cordic_hyperbolic_mode
+# Break in Module testbench_cordic_hyperbolic_mode at ../../Testbench/testbench_cordic_hyperbolic_mode.v line 38
+# 0 ps
+# 556500 ps
+# End time: 19:48:30 on May 10,2022, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0

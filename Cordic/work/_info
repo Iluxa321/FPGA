@@ -1,0 +1,330 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Program/Quartus/Cordic
+vcordic
+Z1 !s110 1651932729
+!i10b 1
+!s100 Cc?_zzGBb8aXM:Q4O5YbZ1
+IfaBO9:lQLn2W]KJ<3Y>LZ0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1651932702
+Z4 8F:/Program/Quartus/Cordic/Verilog/cordic.v
+Z5 FF:/Program/Quartus/Cordic/Verilog/cordic.v
+L0 1
+Z6 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z7 !s108 1651932729.625000
+Z8 !s107 F:/Program/Quartus/Cordic/Verilog/cordic.v|
+Z9 !s90 -reportprogress|300|-work|work|F:/Program/Quartus/Cordic/Verilog/cordic.v|
+!i113 1
+Z10 o-work work
+vcordic1
+R1
+!i10b 1
+!s100 ETB10J?mU93U>mYNNTj^81
+I0DYgnFlh;SoN<QI<l1Mhb1
+R2
+R0
+R3
+R4
+R5
+L0 404
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_div
+R1
+!i10b 1
+!s100 h?aIW5ebQF`Fo2<iPcLaU0
+I?KS<NdAaBWcQ]W@^_dzEc0
+R2
+R0
+R3
+R4
+R5
+L0 357
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_hyperbolic_mode
+R1
+!i10b 1
+!s100 8gHMWQ_I1RcTi=T5in[e60
+Iz]L88BX3J92jS@OX`_BRP0
+R2
+R0
+R3
+R4
+R5
+L0 191
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_hyperbolic_vector_mode
+R1
+!i10b 1
+!s100 ^oHI;`Sc?9FaZk=Xk=86z2
+IX]BE@I]ik9P=0e>Y5k_LE0
+R2
+R0
+R3
+R4
+R5
+L0 291
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_line_mode
+R1
+!i10b 1
+!s100 >hV[1@me?8KeK]H1ITn:l1
+I`4?RR;kYNB0hDc[MX:gGG1
+R2
+R0
+R3
+R4
+R5
+L0 126
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_multiplier
+R1
+!i10b 1
+!s100 =QzGZZQLJK01_;]=KW6=G3
+IC;DS5]gFWcTjlDU:AR6FI2
+R2
+R0
+R3
+R4
+R5
+L0 333
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_pipeline
+R1
+!i10b 1
+!s100 6]ll3:f:>_XTk;JiS=GQ>3
+IW`Ub@>O1c`<M5Vz8_kS?Y2
+R2
+R0
+R3
+R4
+R5
+L0 35
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_pipeline_stage
+R1
+!i10b 1
+!s100 oVAXRA]C0b]KU^oMdQf_?0
+I];>z[hbU7FOO0aYPk9dfa3
+R2
+R0
+R3
+R4
+R5
+L0 312
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_pipeline_stage2
+R1
+!i10b 1
+!s100 GL6PV?lE_;UnolnH`9XBM1
+Ik2n3Z1K3m:?:83bomFSJV2
+R2
+R0
+R3
+R4
+R5
+L0 382
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_stage
+R1
+!i10b 1
+!s100 Ahz6BZBSXm903SB:EVJzn0
+InN51ebTI=gmlMiFz[XYm[0
+R2
+R0
+R3
+R4
+R5
+L0 465
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcordic_stage1
+!s110 1651390283
+!i10b 1
+!s100 bOffdS8k=`;^[JEKRdoRo2
+I26LW7KQRXVjU;LX2bPAkb3
+R2
+R0
+w1651390241
+R4
+R5
+L0 87
+R6
+r1
+!s85 0
+31
+!s108 1651390283.961000
+R8
+R9
+!i113 1
+R10
+vcordic_stage2
+!s110 1651338013
+!i10b 1
+!s100 kTiojbBimjd=?lmM69O=l3
+IaTlhIC21FTaFUGk6cf;4K1
+R2
+R0
+w1651338007
+R4
+R5
+L0 145
+R6
+r1
+!s85 0
+31
+!s108 1651338013.731000
+R8
+R9
+!i113 1
+R10
+vtestbench
+!s110 1651931518
+!i10b 1
+!s100 hnoTc78_3R]_IiV?`EK<R2
+IX9;Sh5UT_`JbL14:dOiaE2
+R2
+R0
+w1651931513
+Z11 8F:/Program/Quartus/Cordic/Testbench/testbench_cordic_hyperbolic_mode.v
+Z12 FF:/Program/Quartus/Cordic/Testbench/testbench_cordic_hyperbolic_mode.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1651931518.401000
+Z13 !s107 F:/Program/Quartus/Cordic/Testbench/testbench_cordic_hyperbolic_mode.v|
+Z14 !s90 -reportprogress|300|-work|work|F:/Program/Quartus/Cordic/Testbench/testbench_cordic_hyperbolic_mode.v|
+!i113 1
+R10
+vtestbench_cordic_hyperbolic_mode
+!s110 1651931653
+!i10b 1
+!s100 Zkzl<[Kd2P88GfZR`[E:c2
+Io_ADRblTRgJKRNTZYRPPH0
+R2
+R0
+w1651931649
+R11
+R12
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1651931653.945000
+R13
+R14
+!i113 1
+R10
+vtestbench_cordic_line_mode
+!s110 1651916732
+!i10b 1
+!s100 HiieEZ=eWYSX>0^cWCV[Y0
+I=f;YlXg2O]5nkHEfH:d^A3
+R2
+R0
+w1651908431
+8F:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v
+FF:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1651916732.321000
+!s107 F:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v|
+!i113 1
+R10

@@ -1,0 +1,275 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Program/Quartus/Cordic/ModelSim/sim
+vcordic
+Z1 !s110 1652201215
+!i10b 1
+!s100 CnYAM85ZogMciSV<8i]VO0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I08^k>5<fH0H4EXL[W^[6<1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1652201180
+Z5 8../../Verilog/cordic.v
+Z6 F../../Verilog/cordic.v
+!i122 1
+L0 1 30
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1652201215.000000
+!s107 ../../Verilog/cordic.v|
+Z9 !s90 -reportprogress|300|../../Verilog/cordic.v|
+!i113 1
+Z10 tCvgOpt 0
+vcordic1
+R1
+!i10b 1
+!s100 k6Q9FQ9<eefT63ACzCHLd1
+R2
+IJlLNEJgm8]EJ<;ZazfOPA2
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 499 58
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 ../../Verilog/cordic.v|
+R9
+!i113 1
+R10
+vcordic_div
+R1
+!i10b 1
+!s100 65e[gdSOCFI=feRUzO]ib2
+R2
+I`Y>YRKO4TQ>8heO3HlShA0
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 452 23
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_hyperbolic_mode
+R1
+!i10b 1
+!s100 Ol:VL=<f[4836`DU=mW_K0
+R2
+I4WPn;YSK=4]1;iU8V=A@P1
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 191 192
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_hyperbolic_vector_mode
+R1
+!i10b 1
+!s100 T2coEM@WJ]6^7105JJhz[0
+R2
+I37cON`GAAed<PRXoNG[8C3
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 384 22
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_line_mode
+R1
+!i10b 1
+!s100 lhjdWj5n8k3hFiSo?9d4D1
+R2
+Ij[84i[;MfeZcY[G1d4cWI0
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 126 64
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_multiplier
+R1
+!i10b 1
+!s100 aH1o6YUgPdVf9a2:NSV6@3
+R2
+IQefh2mjhAA_KXW_R<LhB@3
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 428 23
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_pipeline
+R1
+!i10b 1
+!s100 L4zQ>YgPic<le??H1JKZg1
+R2
+IdJ_amck2kYXQl@UkBHG7[3
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 35 89
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_pipeline_stage
+R1
+!i10b 1
+!s100 kmUemmS]heL1MZmT;XQR80
+R2
+I@l18lDMWDFL`PAI58^AJ^2
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 407 20
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_pipeline_stage2
+R1
+!i10b 1
+!s100 Mz^h0>_1M2:OCznQaVJ=C0
+R2
+I9GDbDDO1^:dH25=cYbcjj1
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 477 20
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vcordic_stage
+R1
+!i10b 1
+!s100 P_XV?h5<MLC:ZmH6ThGkd1
+R2
+I0XRzNg>N]CMO^BbNk8Y=10
+R3
+R0
+R4
+R5
+R6
+!i122 1
+L0 560 15
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vtestbench_cordic_hyperbolic_mode
+R1
+!i10b 1
+!s100 OJ10idV;;YUPMa:9D7Zbh3
+R2
+IPUT2=LBa0gH1c0ObzCm8j1
+R3
+R0
+w1652201208
+8../../Testbench/testbench_cordic_hyperbolic_mode.v
+F../../Testbench/testbench_cordic_hyperbolic_mode.v
+!i122 0
+L0 3 40
+R7
+r1
+!s85 0
+31
+R8
+!s107 ../../Testbench/testbench_cordic_hyperbolic_mode.v|
+!s90 -reportprogress|300|../../Testbench/testbench_cordic_hyperbolic_mode.v|
+!i113 1
+R10

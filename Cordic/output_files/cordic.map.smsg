@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at testbench.v(9): object "b" differs only in case from object "B" in the same scope File: F:/Program/Quartus/Cordic/Testbench/testbench.v Line: 9
+Info (10281): Verilog HDL Declaration information at testbench_cordic_line_mode.v(5): object "a" differs only in case from object "A" in the same scope File: F:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v Line: 5
+Info (10281): Verilog HDL Declaration information at testbench_cordic_line_mode.v(5): object "b" differs only in case from object "B" in the same scope File: F:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v Line: 5
+Info (10281): Verilog HDL Declaration information at testbench_cordic_line_mode.v(5): object "c" differs only in case from object "C" in the same scope File: F:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v Line: 5
+Info (10281): Verilog HDL Declaration information at testbench_cordic_line_mode.v(7): object "res" differs only in case from object "RES" in the same scope File: F:/Program/Quartus/Cordic/Testbench/testbench_cordic_line_mode.v Line: 7

@@ -1,0 +1,34 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate F:\Program\Quartus\Cordic\unnamed.qsys --block-symbol-file --output-directory=F:\Program\Quartus\Cordic\unnamed --family="MAX 10" --part=10M08DAF484C8G
+Progress: Loading Cordic/unnamed.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 20.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate F:\Program\Quartus\Cordic\unnamed.qsys --synthesis=VERILOG --output-directory=F:\Program\Quartus\Cordic\unnamed\synthesis --family="MAX 10" --part=10M08DAF484C8G
+Progress: Loading Cordic/unnamed.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 20.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unnamed: Generating unnamed "unnamed" for QUARTUS_SYNTH
+Info: CORDIC_0: F:/intelfpga_lite/20.1/quartus/dspba/backend/windows64/cmdPolyEval -target MAX10 -frequency 200 -name unnamed_CORDIC_0 -noChanValid -faithfulRounding -printMachineReadable -lang VHDL -speedgrade 8 FXPSinCosCordic 13 10 1 8
+Info: CORDIC_0: Latency on MAX 10 is 13 cycles
+Info: CORDIC_0: DSP Blocks Used: 0
+Info: CORDIC_0: LUTs Used: 1445
+Info: CORDIC_0: Memory Bits Used: 0
+Info: CORDIC_0: Memory Blocks Used: 0
+Info: CORDIC_0: "unnamed" instantiated altera_CORDIC "CORDIC_0"
+Info: unnamed: Done "unnamed" with 2 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
