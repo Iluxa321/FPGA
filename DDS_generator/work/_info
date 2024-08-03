@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Program/Quartus/DDS_generator
+vdds_generator
+Z1 !s110 1638022331
+!i10b 1
+!s100 ^O2>ffWXoz_1Y>4kSPQ1=1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INWmGTUX]A>]LW48TUdkFe2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1619197431
+8F:/Program/Quartus/DDS_generator/Verilog/dds_generator.v
+FF:/Program/Quartus/DDS_generator/Verilog/dds_generator.v
+!i122 1
+L0 1 20
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638022330.000000
+!s107 F:/Program/Quartus/DDS_generator/Verilog/dds_generator.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/DDS_generator/Verilog/dds_generator.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vPLL
+R1
+!i10b 1
+!s100 1`[90EMLQFbnFA:HB1`n51
+R2
+IaVc:Ul@k=cC>VjW1ZJ3Y;0
+R3
+R0
+w1619197031
+8F:/Program/Quartus/DDS_generator/Verilog/PLL.v
+FF:/Program/Quartus/DDS_generator/Verilog/PLL.v
+!i122 2
+L0 40 110
+R4
+r1
+!s85 0
+31
+Z7 !s108 1638022331.000000
+!s107 F:/Program/Quartus/DDS_generator/Verilog/PLL.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/DDS_generator/Verilog/PLL.v|
+!i113 1
+R5
+R6
+n@p@l@l
+vROM
+R1
+!i10b 1
+!s100 Z035gX`^ZWb02dKW1[9cN1
+R2
+I>YY70Uz;N=z=o0>EkaB6G3
+R3
+R0
+w1619195021
+8F:/Program/Quartus/DDS_generator/Verilog/ROM.v
+FF:/Program/Quartus/DDS_generator/Verilog/ROM.v
+!i122 3
+L0 40 66
+R4
+r1
+!s85 0
+31
+R7
+!s107 F:/Program/Quartus/DDS_generator/Verilog/ROM.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/DDS_generator/Verilog/ROM.v|
+!i113 1
+R5
+R6
+n@r@o@m
+vtestbench
+!s110 1638022327
+!i10b 1
+!s100 5dT>2^hf7L5LS[zmFic?72
+R2
+I6_:ACQ?XMf[j3OF`fDL_91
+R3
+R0
+w1619197549
+8F:/Program/Quartus/DDS_generator/testbench.v
+FF:/Program/Quartus/DDS_generator/testbench.v
+!i122 0
+L0 2 22
+R4
+r1
+!s85 0
+31
+!s108 1638022327.000000
+!s107 F:/Program/Quartus/DDS_generator/testbench.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/DDS_generator/testbench.v|
+!i113 1
+R5
+R6
