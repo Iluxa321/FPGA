@@ -1,0 +1,79 @@
+`timescale 1ns / 1ns
+module testbench();
+
+	reg clk;
+	reg rst, go;
+	wire data;
+	wire sclk;
+	wire cs;
+	wire [11:0] odata;
+	wire addr;
+	reg [2:0] ch;
+	wire en;
+	reg [7:0] modul_step;
+	reg [3:0] fractional_step;
+	wire [9:0] result;
+	// переменный для управления шагом
+	reg [9:0] tmp_result;
+	reg [3:0] cnt_step;
+	//-----------------------------
+	
+	approximator approximator(
+					.clk(clk),
+					.en(en),
+					.data(odata[11:2]),
+					.modul_step(modul_step),
+					.fractional_step(fractional_step),
+					.amp(result)
+					);
+	adc_control adc_control(	
+				.iRST(rst),
+				.iCLK(clk),
+				.iGO(go),
+				.iDOUT(data),
+				.iCH(ch),
+				.odata(odata),
+				.oDIN(addr),
+				.oCS_n(cs),
+				.oSCLK(sclk),
+				.en_data(en)
+				);
+	adc_model adc_model(
+				.clk(sclk),
+				.cs(cs),
+				.din(addr),
+				.dout(data)
+				);
+	initial begin
+		clk = 0;
+		rst = 0;
+		go = 0;
+		ch = 0;
+		modul_step = 1;
+		fractional_step = 4'b0000;
+		tmp_result = result;
+		cnt_step = 0;
+		#100;
+		rst = 1;
+		go = 1;
+		forever begin
+			#10; clk = ~clk; 
+		end
+	end
+	always @(posedge clk) begin
+		if(tmp_result !== result) begin
+			tmp_result = result;
+			cnt_step = cnt_step + 1;
+			if(cnt_step == 1) begin
+				modul_step = 3;
+				fractional_step = 4'b0000;
+			end
+			else if(cnt_step == 2) begin
+				modul_step = 5;
+				fractional_step = 4'b0000;
+			end
+		end
+	end
+
+endmodule
+

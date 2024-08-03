@@ -1,0 +1,513 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Program/Quartus/Demodulator
+vaccumulator
+Z1 !s110 1638021583
+!i10b 1
+!s100 l24HJcZJP[lUaPaYMDiBZ1
+InS4^E0O]8KHNdM`O=BXhT0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1621172428
+Z4 8F:/Program/Quartus/Demodulator/Verilog/approximator.v
+Z5 FF:/Program/Quartus/Demodulator/Verilog/approximator.v
+L0 170
+Z6 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z7 !s108 1638021583.567000
+Z8 !s107 F:/Program/Quartus/Demodulator/Verilog/approximator.v|
+Z9 !s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/Verilog/approximator.v|
+!i113 1
+Z10 o-work work
+vaccumulator_opt
+R1
+!i10b 1
+!s100 =Ql<I[zO`?RQNFj<0la]B0
+ITKHPYZ6gaLQT36U99BGGK0
+R2
+R0
+Z11 w1621174425
+Z12 8F:/Program/Quartus/Demodulator/Verilog/approximator_opt.v
+Z13 FF:/Program/Quartus/Demodulator/Verilog/approximator_opt.v
+L0 163
+R6
+r1
+!s85 0
+31
+Z14 !s108 1638021583.722000
+Z15 !s107 F:/Program/Quartus/Demodulator/Verilog/approximator_opt.v|
+Z16 !s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/Verilog/approximator_opt.v|
+!i113 1
+R10
+vadc_control
+R1
+!i10b 1
+!s100 dZH6kHngYUmI]ToGcmifI1
+IQK;gf9JA^6eL4CZL0aeme0
+R2
+R0
+w1619510530
+8F:/Program/Quartus/Demodulator/Verilog/adc_control.v
+FF:/Program/Quartus/Demodulator/Verilog/adc_control.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1638021583.361000
+!s107 F:/Program/Quartus/Demodulator/Verilog/adc_control.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/Verilog/adc_control.v|
+!i113 1
+R10
+vadc_model
+R1
+!i10b 1
+!s100 >l5NaACGi6f38k_fM4k601
+I64^N5nk]nn`6z7a16o^`R0
+R2
+R0
+w1619253116
+8F:/Program/Quartus/Demodulator/Verilog/adc_model.v
+FF:/Program/Quartus/Demodulator/Verilog/adc_model.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1638021583.505000
+!s107 F:/Program/Quartus/Demodulator/Verilog/adc_model.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/Verilog/adc_model.v|
+!i113 1
+R10
+vapproximator
+R1
+!i10b 1
+!s100 g`KT<QhUX1ha5mbd[^6cF0
+InW5zFEdUF^`?aKK1z7MZ02
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vapproximator_opt
+R1
+!i10b 1
+!s100 34HVoGnao`>]FfU_1fRTa3
+IXIP1@4FLOl57NF3XU=<1P0
+R2
+R0
+R11
+R12
+R13
+L0 1
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R10
+vcounter
+R1
+!i10b 1
+!s100 AWQR6LVdlHP0jDJV1[VlG0
+Ij2eXKARNMBV=O8Y=nzTH^1
+R2
+R0
+R3
+R4
+R5
+L0 193
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcounter_opt
+R1
+!i10b 1
+!s100 B5CFiKABY3=d@6;?QL@>13
+I28NTmQfohOlnHg[5<_a?a0
+R2
+R0
+R11
+R12
+R13
+L0 186
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R10
+vdds_generator
+R1
+!i10b 1
+!s100 ;dHKD_M@`fOzKIC5jRQWh3
+IG0GHXY:^`hMHFa8g:?XmA0
+R2
+R0
+w1619704460
+8F:/Program/Quartus/Demodulator/Verilog/dds_generator.v
+FF:/Program/Quartus/Demodulator/Verilog/dds_generator.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1638021583.856000
+!s107 F:/Program/Quartus/Demodulator/Verilog/dds_generator.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/Verilog/dds_generator.v|
+!i113 1
+R10
+vdemodulator
+R1
+!i10b 1
+!s100 W05@gQFVQj>P3o2DJYJmk1
+I@if:S65P@>=Lk>N_XB29H0
+R2
+R0
+w1621173612
+8F:/Program/Quartus/Demodulator/Verilog/demodulator.v
+FF:/Program/Quartus/Demodulator/Verilog/demodulator.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1638021583.942000
+!s107 F:/Program/Quartus/Demodulator/Verilog/demodulator.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/Verilog/demodulator.v|
+!i113 1
+R10
+vPLL
+Z17 !s110 1638021584
+!i10b 1
+!s100 6Szz0PciM=:ZMMGc3Kc0U0
+I0HYNI=RniTCCX=hM;4b;z0
+R2
+R0
+w1619266683
+8F:/Program/Quartus/Demodulator/Verilog/PLL.v
+FF:/Program/Quartus/Demodulator/Verilog/PLL.v
+Z18 L0 40
+R6
+r1
+!s85 0
+31
+!s108 1638021584.015000
+!s107 F:/Program/Quartus/Demodulator/Verilog/PLL.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/Verilog/PLL.v|
+!i113 1
+R10
+n@p@l@l
+vpow2
+R1
+!i10b 1
+!s100 _i[DDge@nmPSk8:U4M8>l1
+I>^oW:Sd_62Pcg72LFmgkc2
+R2
+R0
+R3
+R4
+R5
+L0 126
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregistor
+R1
+!i10b 1
+!s100 Y>cLl@lmlGlH5C[KT1@nT1
+I:fzCQP5NA>MKHoglMIDVg0
+R2
+R0
+R3
+R4
+R5
+L0 210
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregistor_opt
+R1
+!i10b 1
+!s100 CjUfP0jl]0?W;10<G=C441
+IKMX7HVeki4n8Xemhd_0Zk0
+R2
+R0
+R11
+R12
+R13
+L0 203
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R10
+vROM
+R17
+!i10b 1
+!s100 KiNVg2l^iEDnBmR_NPZTM3
+IKMjd<f>[zS6Lie6E76Nk91
+R2
+R0
+w1619248071
+8F:/Program/Quartus/Demodulator/Verilog/ROM.v
+FF:/Program/Quartus/Demodulator/Verilog/ROM.v
+R18
+R6
+r1
+!s85 0
+31
+!s108 1638021584.342000
+!s107 F:/Program/Quartus/Demodulator/Verilog/ROM.v|
+!s90 -reportprogress|30|-work|work|F:/Program/Quartus/Demodulator/Verilog/ROM.v|
+!i113 1
+R10
+n@r@o@m
+vsigned_mult
+R1
+!i10b 1
+!s100 U<XBBC?H7QoKFEERz4<?K3
+I1W>[_<BaWQUc_L7KgDOKl0
+R2
+R0
+R3
+R4
+R5
+L0 225
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsigned_mult_opt
+R1
+!i10b 1
+!s100 TZW_QgSW<7j:A`]6g8N^Z0
+I`_WUU`mQViIdXFIC?RP?g1
+R2
+R0
+R11
+R12
+R13
+L0 218
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R10
+vSQRT
+R17
+!i10b 1
+!s100 UNcUf2o@Q]2H26>njmm2S3
+IH[fV_eh92DeK]7AW[@?450
+R2
+R0
+w1626802825
+8F:/Program/Quartus/Demodulator/Verilog/SQRT.v
+FF:/Program/Quartus/Demodulator/Verilog/SQRT.v
+R18
+R6
+r1
+!s85 0
+31
+!s108 1638021584.620000
+!s107 F:/Program/Quartus/Demodulator/Verilog/SQRT.v|
+!s90 -reportprogress|30|-work|work|F:/Program/Quartus/Demodulator/Verilog/SQRT.v|
+!i113 1
+R10
+n@s@q@r@t
+vtable_sin_cos
+!s110 1619636013
+!i10b 1
+!s100 Re9cIbbSAV9QYn6M5LC680
+I15^CWRHmcX`eS7eA1baYf3
+R2
+R0
+w1619262537
+R4
+R5
+L0 133
+R6
+r1
+!s85 0
+31
+!s108 1619636013.824000
+R8
+R9
+!i113 1
+R10
+vtestbench
+Z19 !s110 1638021578
+!i10b 1
+!s100 K0eT[=@;hVR@5^?]BhL_l0
+IlP=IDzG0Y`ol:blRi:j7[2
+R2
+R0
+w1621174524
+8F:/Program/Quartus/Demodulator/testbench.v
+FF:/Program/Quartus/Demodulator/testbench.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1638021578.250000
+!s107 F:/Program/Quartus/Demodulator/testbench.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/testbench.v|
+!i113 1
+R10
+vtestbench2
+R19
+!i10b 1
+!s100 :YgD[i;ehS0DV@SjXAkl`3
+IkQn8^Am;<f[Y@3SLJ9Ih00
+R2
+R0
+w1619704025
+8F:/Program/Quartus/Demodulator/testbench2.v
+FF:/Program/Quartus/Demodulator/testbench2.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1638021578.735000
+!s107 F:/Program/Quartus/Demodulator/testbench2.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/testbench2.v|
+!i113 1
+R10
+vtestbench_adc
+R19
+!i10b 1
+!s100 o4cNUG[]oo8QRBfa4fjiR2
+IIDW]eWmo4P:9@h1o;zk<81
+R2
+R0
+w1619253225
+8F:/Program/Quartus/Demodulator/testbench_adc.v
+FF:/Program/Quartus/Demodulator/testbench_adc.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1638021578.517000
+!s107 F:/Program/Quartus/Demodulator/testbench_adc.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/testbench_adc.v|
+!i113 1
+R10
+vtestbench_opt
+R19
+!i10b 1
+!s100 KnzKKR1h9MA@]TjgGObVd1
+IhXSTR5Q?gV4e=RbCU4U^_3
+R2
+R0
+w1626803362
+8F:/Program/Quartus/Demodulator/testbench_opt.v
+FF:/Program/Quartus/Demodulator/testbench_opt.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1638021578.576000
+!s107 F:/Program/Quartus/Demodulator/testbench_opt.v|
+!s90 -reportprogress|300|-work|work|F:/Program/Quartus/Demodulator/testbench_opt.v|
+!i113 1
+R10
+vunsigned_mult
+R1
+!i10b 1
+!s100 jOj9NOaIjU^UXFhHVR<Z60
+I?@o37mSSXczhY>XH>@g=S0
+R2
+R0
+R3
+R4
+R5
+L0 236
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vunsigned_mult_opt
+R1
+!i10b 1
+!s100 df7N`VEEzzYP?XRZf_k@W2
+Ijme398dQo[aRK3FSL2@Io1
+R2
+R0
+R11
+R12
+R13
+L0 229
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R10

@@ -1,0 +1,8 @@
+PIPELINE=0
+Q_PORT_WIDTH=19
+R_PORT_WIDTH=20
+WIDTH=38
+DEVICE_FAMILY="Cyclone IV E"
+radical
+q
+remainder
