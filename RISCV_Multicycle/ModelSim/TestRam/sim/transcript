@@ -1,0 +1,43 @@
+# do ../test_ram.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:09:38 on Jun 18,2023
+# vlog -sv ../../../Testbench/tb_ram.sv 
+# -- Compiling package tb_ram_sv_unit
+# -- Compiling module tb_ram
+# 
+# Top level modules:
+# 	tb_ram
+# End time: 15:09:38 on Jun 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:09:38 on Jun 18,2023
+# vlog -sv ../../../RTL/data_ram.sv 
+# -- Compiling module data_ram
+# 
+# Top level modules:
+# 	data_ram
+# End time: 15:09:38 on Jun 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:09:38 on Jun 18,2023
+# vlog ../../../RTL/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 15:09:38 on Jun 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:09:38 on Jun 18,2023
+# vlog -sv ../../../RTL/masterPort.sv 
+# ** Warning: ../../../RTL/masterPort.sv(134): (vlog-13314) Defaulting port 'cpu2master' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../../../RTL/masterPort.sv(138): (vlog-13314) Defaulting port 'slave2master' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# -- Compiling package masterPort_sv_unit
+# -- Compiling module masterPort
+# ** Warning: ../../../RTL/masterPort.sv(134): (vlog-13314) Defaulting port 'cpu2master' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../../../RTL/masterPort.sv(138): (vlog-13314) Defaulting port 'slave2master' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	masterPort
+# End time: 15:09:38 on Jun 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4

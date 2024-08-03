@@ -1,0 +1,47 @@
+
+State Machine - |riscv|data_ram:ram|state
+Name state.IDLE state.WRITE state.READ 
+state.IDLE 0 0 0 
+state.READ 1 0 1 
+state.WRITE 1 1 0 
+
+State Machine - |riscv|ufm:mem|altera_onchip_flash:onchip_flash_0|altera_onchip_flash_avmm_data_controller:avmm_data_controller|avmm_read_valid_state
+Name avmm_read_valid_state.READ_VALID_IDLE avmm_read_valid_state.READ_VALID_PRE_READING avmm_read_valid_state.READ_VALID_READING 
+avmm_read_valid_state.READ_VALID_IDLE 0 0 0 
+avmm_read_valid_state.READ_VALID_READING 1 0 1 
+avmm_read_valid_state.READ_VALID_PRE_READING 1 1 0 
+
+State Machine - |riscv|ufm:mem|altera_onchip_flash:onchip_flash_0|altera_onchip_flash_avmm_data_controller:avmm_data_controller|read_state
+Name read_state.READ_STATE_PULSE_SE read_state.READ_STATE_CLEAR read_state.READ_STATE_FINAL read_state.READ_STATE_READY read_state.READ_STATE_DUMMY read_state.READ_STATE_SETUP read_state.READ_STATE_ADDR read_state.READ_STATE_IDLE 
+read_state.READ_STATE_IDLE 0 0 0 0 0 0 0 0 
+read_state.READ_STATE_ADDR 0 0 0 0 0 0 1 1 
+read_state.READ_STATE_SETUP 0 0 0 0 0 1 0 1 
+read_state.READ_STATE_DUMMY 0 0 0 0 1 0 0 1 
+read_state.READ_STATE_READY 0 0 0 1 0 0 0 1 
+read_state.READ_STATE_FINAL 0 0 1 0 0 0 0 1 
+read_state.READ_STATE_CLEAR 0 1 0 0 0 0 0 1 
+read_state.READ_STATE_PULSE_SE 1 0 0 0 0 0 0 1 
+
+State Machine - |riscv|masterPort:mp|state
+Name state.WRITE state.READ state.START_READ state.IDLE 
+state.IDLE 0 0 0 0 
+state.START_READ 0 0 1 1 
+state.READ 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |riscv|cpu:cpu|controller:cntr|mainFSM:mainFSM|state
+Name state.ANY_BARNCH state.JUMP_LINK state.JUMP state.ALU_WB state.LOAD_PC state.LOAD_UPPER state.EXECUTE_I state.EXECUTE_R state.WRITE_DATA state.MEM_WB state.READ_DATA state.MEM_ADDR state.DECODER state.FETCH 
+state.FETCH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.DECODER 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.MEM_ADDR 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.READ_DATA 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.MEM_WB 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.WRITE_DATA 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.EXECUTE_R 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.EXECUTE_I 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.LOAD_UPPER 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.LOAD_PC 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.ALU_WB 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.JUMP 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.JUMP_LINK 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.ANY_BARNCH 1 0 0 0 0 0 0 0 0 0 0 0 0 1 

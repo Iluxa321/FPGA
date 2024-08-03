@@ -1,0 +1,7 @@
+Info (10281): Verilog HDL Declaration information at data_ram.sv(4): object "read" differs only in case from object "READ" in the same scope File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/Components/data_ram.sv Line: 4
+Info (10281): Verilog HDL Declaration information at data_ram.sv(4): object "write" differs only in case from object "WRITE" in the same scope File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/Components/data_ram.sv Line: 4
+Info (10281): Verilog HDL Declaration information at controller.sv(52): object "Branch" differs only in case from object "BRANCH" in the same scope File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/CPU/controller.sv Line: 52
+Warning (10273): Verilog HDL warning at controller.sv(293): extended using "x" or "z" File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/CPU/controller.sv Line: 293
+Warning (10273): Verilog HDL warning at controller.sv(312): extended using "x" or "z" File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/CPU/controller.sv Line: 312
+Warning (10273): Verilog HDL warning at controller.sv(314): extended using "x" or "z" File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/CPU/controller.sv Line: 314
+Warning (10273): Verilog HDL warning at datapath.sv(115): extended using "x" or "z" File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/CPU/datapath.sv Line: 115

@@ -1,0 +1,68 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000002800 xr
+RAM              0x0000000000020000 0x0000000000000400 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000100                _stack_size = 0x100
+                0x0000000000020400                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.text           0x0000000000000000      0x280
+                0x0000000000000000                . = ALIGN (0x4)
+ output/startup.o(.text)
+ .text          0x0000000000000000       0x88 output/startup.o
+                0x0000000000000000                _start
+                0x0000000000000080                _stop
+ *(.text)
+ .text          0x0000000000000088      0x1f8 output/main.o
+                0x0000000000000088                main
+                0x00000000000000c8                cmp
+                0x0000000000000100                copy
+                0x0000000000000178                sort
+                0x0000000000000280                . = ALIGN (0x4)
+                0x00000000000002a8                _etext = LOADADDR (.data)
+
+.rodata         0x0000000000000280       0x28
+ .rodata        0x0000000000000280       0x28 output/main.o
+                0x0000000000000280                arr
+
+.rela.dyn       0x00000000000002a8        0x0
+ .rela.text     0x00000000000002a8        0x0 output/startup.o
+
+.data           0x0000000000020000        0x0 load address 0x00000000000002a8
+                0x0000000000020000                . = ALIGN (0x4)
+                0x0000000000020000                _sdata = .
+ *(.data)
+ .data          0x0000000000020000        0x0 output/startup.o
+ .data          0x0000000000020000        0x0 output/main.o
+                0x0000000000020000                . = ALIGN (0x4)
+                0x0000000000020000                _edata = .
+
+.bss            0x0000000000020000       0x28 load address 0x00000000000002a8
+                0x0000000000020000                . = ALIGN (0x4)
+                0x0000000000020000                _sbss = .
+ *(.bss)
+ .bss           0x0000000000020000        0x0 output/startup.o
+ .bss           0x0000000000020000       0x28 output/main.o
+                0x0000000000020000                arr2
+ *(COMMON)
+                0x0000000000020028                . = ALIGN (0x4)
+                0x0000000000020028                _ebss = .
+LOAD output/main.o
+LOAD output/startup.o
+OUTPUT(a.out elf32-littleriscv)
+
+.riscv.attributes
+                0x0000000000000000       0x1c
+ .riscv.attributes
+                0x0000000000000000       0x1a output/startup.o
+ .riscv.attributes
+                0x000000000000001a       0x1c output/main.o
+
+.comment        0x0000000000000000       0x12
+ .comment       0x0000000000000000       0x12 output/main.o
+                                         0x13 (size before relaxing)

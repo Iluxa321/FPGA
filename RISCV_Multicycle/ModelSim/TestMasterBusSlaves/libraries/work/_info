@@ -1,0 +1,311 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Program/Quartus/RISCV_Multicycle/ModelSim/TestMasterBusSlaves
+vaddr_decoder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 DXx4 work 11 bus_sv_unit 0 22 TVBgKYek9=hUNLA2ba]8P1
+Z3 !s110 1687254716
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 fzcHBWk73kASO@W>T`ThQ0
+I6W`SDzcP@^UEDLL?QJ0]K3
+Z5 !s105 bus_sv_unit
+S1
+R0
+Z6 w1687165550
+Z7 8./../../RTL/bus.sv
+Z8 F./../../RTL/bus.sv
+!i122 353
+L0 136 23
+Z9 OV;L;2020.1;71
+31
+Z10 !s108 1687254716.000000
+Z11 !s107 Inc/data_type.svh|Inc/if.svh|Inc/conf.svh|./../../RTL/bus.sv|
+Z12 !s90 ./../../RTL/bus.sv|
+!i113 1
+Z13 tCvgOpt 0
+vbus
+R1
+R2
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 abef8KgeXzTObaiLW`RF61
+IAoJ2@CA@V393@TBIKe;5<0
+R5
+S1
+R0
+R6
+R7
+R8
+!i122 353
+L0 86 49
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+Xbus_sv_unit
+R1
+R3
+VTVBgKYek9=hUNLA2ba]8P1
+r1
+!s85 0
+!i10b 1
+!s100 zURT:^M9F=`?_]o@3@<Io1
+ITVBgKYek9=hUNLA2ba]8P1
+!i103 1
+S1
+R0
+Z14 w1687254715
+R7
+R8
+Z15 FInc/conf.svh
+Z16 FInc/if.svh
+Z17 FInc/data_type.svh
+!i122 353
+Z18 L0 4 0
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+vdata_mux
+R1
+R2
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ARb@KzQ48<X_dE7];Fh[20
+IVEL^o>>8lCYMMdl0@n=e02
+R5
+S1
+R0
+R6
+R7
+R8
+!i122 353
+L0 160 28
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+vdata_ram
+R1
+R3
+!i10b 1
+!s100 _>7TEQOK^=T[R5G>G77fM0
+Z19 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ij6:9o<BQGf:EoE1jmhZLh0
+R4
+S1
+R0
+w1687097440
+8./../../RTL/data_ram.sv
+F./../../RTL/data_ram.sv
+!i122 356
+L0 1 90
+R9
+r1
+!s85 0
+31
+R10
+!s107 ./../../RTL/data_ram.sv|
+!s90 ./../../RTL/data_ram.sv|
+!i113 1
+R13
+vmasterPort
+R1
+DXx4 work 18 masterPort_sv_unit 0 22 ;fX:Hg:_;dBPP>HaHOo1:3
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 l=;cLRW`LkeVBcJD:8cKL1
+I^jFYG;_jd>TD?><?HjIWP2
+!s105 masterPort_sv_unit
+S1
+R0
+w1687176268
+Z20 8./../../RTL/masterPort.sv
+Z21 F./../../RTL/masterPort.sv
+!i122 354
+L0 254 116
+R9
+31
+R10
+Z22 !s107 Inc/if.svh|Inc/data_type.svh|./../../RTL/masterPort.sv|
+Z23 !s90 ./../../RTL/masterPort.sv|
+!i113 1
+R13
+nmaster@port
+XmasterPort_sv_unit
+R1
+R3
+V;fX:Hg:_;dBPP>HaHOo1:3
+r1
+!s85 0
+!i10b 1
+!s100 0::nd7jS68[=6M2ZbMgmP0
+I;fX:Hg:_;dBPP>HaHOo1:3
+!i103 1
+S1
+R0
+R14
+R20
+R21
+R17
+R16
+!i122 354
+R18
+R9
+31
+R10
+R22
+R23
+!i113 1
+R13
+nmaster@port_sv_unit
+Yport
+R1
+Z24 DXx4 work 23 tb_port_bus_mem_sv_unit 0 22 AgRKbozk@9=9`;:7BIiL^2
+Z25 !s110 1687254717
+R4
+r1
+!s85 0
+!i10b 1
+!s100 GSDMigbmCVH3n`J?cR88<2
+I2[E:2DTAcA5];^e70klgV2
+Z26 !s105 tb_port_bus_mem_sv_unit
+S1
+R0
+R14
+8Inc/if.svh
+R16
+!i122 357
+L0 5 0
+R9
+31
+R10
+!s107 Inc/if.svh|Inc/conf.svh|Inc/data_type.svh|./../../Testbench/tb_port_bus_mem.sv|
+Z27 !s90 ./../../Testbench/tb_port_bus_mem.sv|
+!i113 1
+R13
+vram
+R3
+!i10b 1
+!s100 jmGh=G_=8Ke^H`Hf0f@<T0
+R19
+IWe`8E1]GmCJV21iJ[[RSZ0
+R4
+R0
+w1687087304
+8./../../RTL/ram.v
+F./../../RTL/ram.v
+!i122 355
+L0 40 69
+R9
+r1
+!s85 0
+31
+R10
+!s107 ./../../RTL/ram.v|
+!s90 ./../../RTL/ram.v|
+!i113 1
+R13
+vtb_port_bus_mem
+R1
+R24
+R25
+R4
+r1
+!s85 0
+!i10b 1
+!s100 RaAmdc_SE8071mKDN6;3`0
+I@K9dhdD5kP_a86e7;K5J03
+R26
+S1
+R0
+w1687174090
+Z28 8./../../Testbench/tb_port_bus_mem.sv
+Z29 F./../../Testbench/tb_port_bus_mem.sv
+!i122 357
+L0 14 140
+R9
+31
+R10
+Z30 !s107 Inc/if.svh|Inc/conf.svh|Inc/data_type.svh|./../../Testbench/tb_port_bus_mem.sv|
+R27
+!i113 1
+R13
+Xtb_port_bus_mem_sv_unit
+R1
+R25
+VAgRKbozk@9=9`;:7BIiL^2
+r1
+!s85 0
+!i10b 1
+!s100 c=;<eG`m`:<jVNZOYQjIh3
+IAgRKbozk@9=9`;:7BIiL^2
+!i103 1
+S1
+R0
+R14
+R28
+R29
+R17
+R15
+R16
+!i122 357
+R18
+R9
+31
+R10
+R30
+R27
+!i113 1
+R13
+vufm
+R3
+!i10b 1
+!s100 Qc7omFC7R_4XScU`5PhYR1
+R19
+IUzH?VPCCnkMC>z6ggZ^B>2
+R4
+R0
+w1687173924
+8./../../ip/ufm/simulation/ufm.v
+F./../../ip/ufm/simulation/ufm.v
+!i122 352
+L0 6 77
+R9
+r1
+!s85 0
+31
+R10
+!s107 ./../../ip/ufm/simulation/ufm.v|
+!s90 ./../../ip/ufm/simulation/ufm.v|
+!i113 1
+R13

@@ -1,0 +1,23 @@
+vlib work
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Copying /home/ilya/ProgramFiles/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/Inc/conf.vh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:47:49 on Jun 17,2023
+# vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/Inc/conf.vh 
+# End time: 16:47:49 on Jun 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/bus.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:48 on Jun 17,2023
+# vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/bus.sv 
+# ** Error: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/bus.sv(1): Cannot open `include file "Inc/conf.vh".
+# -- Compiling module bus
+# ** Error: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/bus.sv(23): (vlog-2163) Macro `UFM_SIZE is undefined.
+# ** Error: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/bus.sv(23): Incorrect number of arguments in $bits()/$dimensions()/$isunbounded()/$clog2 function.
+# /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/bus.sv(23): Verilog Compiler exiting
+# End time: 16:48:48 on Jun 17,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0

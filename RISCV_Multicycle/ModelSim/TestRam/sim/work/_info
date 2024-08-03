@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ilya/my_file/Program/Quartus/RISCV_Multicycle/ModelSim/TestRam/sim
+vdata_ram
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1687090178
+!i10b 1
+!s100 5X;jbGcBT8Hn<eAQfToJ^1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2dGYeaEO7Kc@@j^JU0^9c3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1686770340
+8../../../RTL/data_ram.sv
+F../../../RTL/data_ram.sv
+!i122 1
+L0 1 89
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1687090178.000000
+!s107 ../../../RTL/data_ram.sv|
+!s90 -sv|../../../RTL/data_ram.sv|
+!i113 1
+o-sv
+Z7 tCvgOpt 0
+vmasterPort
+R1
+DXx4 work 18 masterPort_sv_unit 0 22 G^GVCaLan;ln:SLBel@YW1
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 AREkN[G2g^n6l9;::mbic0
+IzYJAUk6GPVgm0MSZA2e=d0
+!s105 masterPort_sv_unit
+S1
+R0
+w1687089959
+Z8 8../../../RTL/masterPort.sv
+Z9 F../../../RTL/masterPort.sv
+!i122 3
+L0 131 118
+R5
+31
+R6
+!s107 Inc/data_type.svh|../../../RTL/masterPort.sv|
+Z10 !s90 -sv|../../../RTL/masterPort.sv|
+!i113 1
+o-sv
+R7
+nmaster@port
+XmasterPort_sv_unit
+R1
+R2
+VG^GVCaLan;ln:SLBel@YW1
+r1
+!s85 0
+!i10b 1
+!s100 Znd]CUEbYV4CdNzcmbz0i1
+IG^GVCaLan;ln:SLBel@YW1
+!i103 1
+S1
+R0
+Z11 w1687090178
+R8
+R9
+Z12 FInc/data_type.svh
+!i122 3
+Z13 L0 1 0
+R5
+31
+R6
+Z14 !s107 Inc/data_type.svh|../../../RTL/masterPort.sv|
+R10
+!i113 1
+o-sv
+R7
+nmaster@port_sv_unit
+vram
+R2
+!i10b 1
+!s100 ^mY3G[[F@55kCHY4UoaA:2
+R3
+I44?<k_6^g6jCa1LjzDSKV1
+R4
+R0
+w1686168682
+8../../../RTL/ram.v
+F../../../RTL/ram.v
+!i122 2
+L0 40 69
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../../../RTL/ram.v|
+!s90 ../../../RTL/ram.v|
+!i113 1
+R7
+vtb_ram
+R1
+DXx4 work 14 tb_ram_sv_unit 0 22 kN>4AWfI>H;XJ0Pk5IBDV3
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ?kVQ72W4S;DmM6=?4Kd7@2
+Ij@Y]AFNgRECZj_a2dZ;f^2
+!s105 tb_ram_sv_unit
+S1
+R0
+w1687088988
+Z15 8../../../Testbench/tb_ram.sv
+Z16 F../../../Testbench/tb_ram.sv
+!i122 0
+L0 138 116
+R5
+31
+R6
+Z17 !s107 Inc/data_type.svh|../../../Testbench/tb_ram.sv|
+Z18 !s90 -sv|../../../Testbench/tb_ram.sv|
+!i113 1
+o-sv
+R7
+Xtb_ram_sv_unit
+R1
+R2
+VkN>4AWfI>H;XJ0Pk5IBDV3
+r1
+!s85 0
+!i10b 1
+!s100 [l0BnDOWn076?NTK;zZ5>0
+IkN>4AWfI>H;XJ0Pk5IBDV3
+!i103 1
+S1
+R0
+R11
+R15
+R16
+R12
+!i122 0
+R13
+R5
+31
+R6
+R17
+R18
+!i113 1
+o-sv
+R7

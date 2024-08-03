@@ -1,0 +1,107 @@
+# do ../core_test.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:54 on Jun 07,2023
+# vlog ../../../Testbench/tb_core.sv 
+# -- Compiling package tb_core_sv_unit
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 17:00:54 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:54 on Jun 07,2023
+# vlog ../../../RTL/ALU.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:00:54 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:54 on Jun 07,2023
+# vlog ../../../RTL/controller.sv 
+# -- Compiling module controller
+# -- Compiling module mainFSM
+# -- Compiling module branchDecoder
+# -- Compiling module avalonMasterDecoder
+# -- Compiling module immExtDecoder
+# -- Compiling module dataExtDecoder
+# -- Compiling module aluDecoder
+# 
+# Top level modules:
+# 	controller
+# End time: 17:00:54 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:54 on Jun 07,2023
+# vlog ../../../RTL/datapath.sv 
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module dataExt
+# -- Compiling module immExt
+# -- Compiling module flop
+# -- Compiling module flope
+# -- Compiling module flopre
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	datapath
+# End time: 17:00:54 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:54 on Jun 07,2023
+# vlog ../../../RTL/riscv.sv 
+# -- Compiling module riscv
+# 
+# Top level modules:
+# 	riscv
+# End time: 17:00:54 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_core 
+# Start time: 17:00:54 on Jun 07,2023
+# Loading sv_std.std
+# Loading work.tb_core_sv_unit
+# Loading work.tb_core
+# Loading work.riscv
+# Loading work.datapath
+# Loading work.flopre
+# Loading work.mux2
+# Loading work.flope
+# Loading work.flop
+# Loading work.regfile
+# Loading work.dataExt
+# Loading work.immExt
+# Loading work.mux4
+# Loading work.mux3
+# Loading work.alu
+# Loading work.controller
+# Loading work.mainFSM
+# Loading work.avalonMasterDecoder
+# Loading work.aluDecoder
+# Loading work.branchDecoder
+# Loading work.immExtDecoder
+# Loading work.dataExtDecoder
+# Loading work.memfile
+# add memory not supported in batch mode
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Note: $finish    : ../../../Testbench/tb_core.sv(54)
+#    Time: 9230 ns  Iteration: 1  Instance: /tb_core
+# End time: 17:00:54 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

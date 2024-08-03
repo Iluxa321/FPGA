@@ -1,0 +1,15 @@
+# sim/out.wlf opened as dataset "out"
+add wave -position insertpoint  \
+out:/tb_core/rst \
+out:/tb_core/writeData \
+out:/tb_core/readData
+add wave -position insertpoint out:/tb_core/dut/cntr/*
+# (vish-4014) No objects found matching 'out:/tb_core/dut/cntr/*'.
+add wave -position insertpoint  \
+out:/tb_core/dut/dp/addrRes \
+out:/tb_core/dut/dp/instr \
+out:/tb_core/dut/dp/rs2 \
+out:/tb_core/dut/dp/rs1 \
+out:/tb_core/dut/dp/rd \
+out:/tb_core/dut/dp/resData \
+out:/tb_core/dut/dp/rB

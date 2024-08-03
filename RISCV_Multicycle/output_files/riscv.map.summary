@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Jun 26 20:00:56 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : riscv
+Top-level Entity Name : riscv
+Family : MAX 10
+Total logic elements : 5,456
+    Total combinational functions : 3,711
+    Dedicated logic registers : 2,702
+Total registers : 2702
+Total pins : 60
+Total virtual pins : 0
+Total memory bits : 134,144
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 1
+ADC blocks : 0

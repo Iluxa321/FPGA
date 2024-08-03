@@ -1,0 +1,555 @@
+# Reading pref.tcl
+vlib work
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Copying F:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:54:03 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 12:54:04 on May 22,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_core
+# vsim work.tb_core 
+# Start time: 12:54:11 on May 22,2023
+# Loading sv_std.std
+# Loading work.tb_core
+# Loading work.memfile
+add wave -position insertpoint  \
+sim:/tb_core/writeData \
+sim:/tb_core/we \
+sim:/tb_core/start_write \
+sim:/tb_core/start_read \
+sim:/tb_core/rst \
+sim:/tb_core/readData \
+sim:/tb_core/mask \
+sim:/tb_core/clk \
+sim:/tb_core/addr
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+quit -sim
+# End time: 12:55:45 on May 22,2023, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+vsim work.tb_core -L altera_mf_ver
+# vsim work.tb_core -L altera_mf_ver 
+# Start time: 12:55:59 on May 22,2023
+# Loading sv_std.std
+# Loading work.tb_core
+# Loading work.memfile
+add wave -position insertpoint  \
+sim:/tb_core/writeData \
+sim:/tb_core/we \
+sim:/tb_core/start_write \
+sim:/tb_core/start_read \
+sim:/tb_core/rst \
+sim:/tb_core/readData \
+sim:/tb_core/mask \
+sim:/tb_core/clk \
+sim:/tb_core/addr
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:57:14 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 12:57:15 on May 22,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+quit -sim
+# End time: 12:57:38 on May 22,2023, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:57:42 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 12:57:42 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_core
+# vsim work.tb_core 
+# Start time: 12:57:45 on May 22,2023
+# Loading sv_std.std
+# Loading work.tb_core
+# Loading work.memfile
+add wave -position insertpoint  \
+sim:/tb_core/writeData \
+sim:/tb_core/we \
+sim:/tb_core/start_write \
+sim:/tb_core/start_read \
+sim:/tb_core/rst \
+sim:/tb_core/readData \
+sim:/tb_core/mask \
+sim:/tb_core/clk \
+sim:/tb_core/addr
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+add wave -position insertpoint  \
+sim:/tb_core/mf/wdata
+restart
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+add wave -position insertpoint  \
+sim:/tb_core/mf/indata
+restart
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+add wave -position insertpoint  \
+sim:/tb_core/mf/addr
+restart
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:11 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:02:11 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:53 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:02:53 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:03:20 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:03:20 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+add wave -position insertpoint  \
+sim:/tb_core/mf/mask32
+restart
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(58)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 58
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:06:00 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:06:00 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+# Load canceled
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:06:46 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:06:46 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:06:50 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:06:50 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:06:51 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:06:51 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:06:52 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:06:52 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:07:27 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:07:27 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:08:02 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:08:02 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:08:27 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:08:27 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:09:05 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:09:05 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:09:52 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:09:52 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 300 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:12:21 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:12:21 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(70)
+#    Time: 340 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 70
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:13:01 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:13:01 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(71)
+#    Time: 360 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 71
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:13:43 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:13:43 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(71)
+#    Time: 360 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 71
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:15:38 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# ** Error: (vlog-13069) F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(73): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(77): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(77): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13069) F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(81): near "@": syntax error, unexpected '@'.
+# ** Error: F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(82): (vlog-13161) unexpected '$stop', expecting elaboration system task $fatal/$error/$warning/$info.
+# ** Error: (vlog-13069) F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(84): near "end": syntax error, unexpected end.
+# End time: 13:15:38 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:15:52 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:15:52 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:15:54 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:15:54 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(82)
+#    Time: 500 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 82
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:17:13 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:17:13 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(83)
+#    Time: 500 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 83
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:19:12 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:19:12 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(93)
+#    Time: 620 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 93
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:20:21 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:20:21 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(93)
+#    Time: 620 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 93
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:27:27 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# ** Error: F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(70): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(71): (vlog-2730) Undefined variable: 'we'.
+# ** Error: F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(72): (vlog-2730) Undefined variable: 'addr'.
+# ** Error: F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(73): (vlog-2730) Undefined variable: 'writeData'.
+# ** Error: F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(74): (vlog-2730) Undefined variable: 'mask'.
+# End time: 13:27:27 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:28:09 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:28:09 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(59)
+#    Time: 620 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 59
+vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:29:14 on May 22,2023
+# vlog -reportprogress 300 -work work F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv 
+# -- Compiling module tb_core
+# -- Compiling module memfile
+# 
+# Top level modules:
+# 	tb_core
+# End time: 13:29:14 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_core
+# Loading work.memfile
+run -all
+# ** Note: $stop    : F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv(44)
+#    Time: 620 ns  Iteration: 1  Instance: /tb_core
+# Break in Module tb_core at F:/Program/Quartus/RISCV_Multicycle/Testbench/tb_core.sv line 44
+# End time: 13:57:19 on May 22,2023, Elapsed time: 0:59:34
+# Errors: 0, Warnings: 0

@@ -1,0 +1,53 @@
+vlib work
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Copying /home/ilya/ProgramFiles/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/data_ram.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:31:23 on Jun 07,2023
+# vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/data_ram.sv 
+# -- Compiling module data_ram
+# 
+# Top level modules:
+# 	data_ram
+# End time: 21:31:23 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/Testbench/tb_ram.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:31:45 on Jun 07,2023
+# vlog -reportprogress 300 -work work /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/Testbench/tb_ram.sv 
+# -- Compiling module tb_ram
+# 
+# Top level modules:
+# 	tb_ram
+# End time: 21:31:45 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_ram -L altera_mf_ver
+# vsim work.tb_ram -L altera_mf_ver 
+# Start time: 21:32:19 on Jun 07,2023
+# Loading sv_std.std
+# Loading work.tb_ram
+# Loading work.data_ram
+# ** Error: (vsim-3033) Instantiation of 'ram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ram/dut File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/data_ram.sv Line: 16
+#         Searched libraries:
+#             /home/ilya/ProgramFiles/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/ModelSim/TestRam/work
+# Error loading design
+# End time: 21:32:19 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.tb_ram
+# vsim work.tb_ram 
+# Start time: 21:32:21 on Jun 07,2023
+# Loading sv_std.std
+# Loading work.tb_ram
+# Loading work.data_ram
+# ** Error: (vsim-3033) Instantiation of 'ram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ram/dut File: /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/RTL/data_ram.sv Line: 16
+#         Searched libraries:
+#             /home/ilya/my_file/Program/Quartus/RISCV_Multicycle/ModelSim/TestRam/work
+# Error loading design
+# End time: 21:32:21 on Jun 07,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

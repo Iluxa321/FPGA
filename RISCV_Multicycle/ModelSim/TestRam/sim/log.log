@@ -1,0 +1,74 @@
+# vsim -c -L altera_mf_ver work.tb_ram -logfile log.log 
+# Start time: 15:09:38 on Jun 18,2023
+# Loading sv_std.std
+# Loading work.tb_ram_sv_unit
+# Loading work.tb_ram
+# Loading work.masterPort_sv_unit
+# Loading work.masterPort
+# Loading work.data_ram
+# Loading work.ram
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'address'. The port definition is at: ../../../RTL/ram.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ram/dut/r File: ../../../RTL/data_ram.sv Line: 16
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# add memory not supported in batch mode
+# START GEN DATA
+# 00000000 DATA = 12153524
+# 00000001 DATA = c0895e81
+# 00000002 DATA = 8484d609
+# 00000003 DATA = b1f05663
+# 00000004 DATA = 06b97b0d
+# 00000005 DATA = 46df998d
+# 00000006 DATA = b2c28465
+# 00000007 DATA = 89375212
+# 00000008 DATA = 00f3e301
+# 00000009 DATA = 06d7cd0d
+# 0000000a DATA = 3b23f176
+# 0000000b DATA = 1e8dcd3d
+# 0000000c DATA = 76d457ed
+# 0000000d DATA = 462df78c
+# 0000000e DATA = 7cfde9f9
+# 0000000f DATA = e33724c6
+# 00000010 DATA = e2f784c5
+# 00000011 DATA = d513d2aa
+# 00000012 DATA = 72aff7e5
+# 00000013 DATA = bbd27277
+# END GEN DATA
+# [              975000] - ADDR = 00000000, BYTEENA = 1, DATA = 00000024
+# [             1095000] - ADDR = 00000004, BYTEENA = 2, DATA = 00005e00
+# [             1215000] - ADDR = 00000008, BYTEENA = 4, DATA = 00840000
+# [             1335000] - ADDR = 00000014, BYTEENA = 3, DATA = 0000998d
+# [             1455000] - ADDR = 00000018, BYTEENA = 6, DATA = 00c28400
+# [             1575000] - ADDR = 0000001c, BYTEENA = c, DATA = 89370000
+# [             1695000] - ADDR = 00000034, BYTEENA = f, DATA = 462df78c
+# ** Note: $stop    : ../../../Testbench/tb_ram.sv(222)
+#    Time: 1890 ns  Iteration: 1  Instance: /tb_ram
+# Break in Module tb_ram at ../../../Testbench/tb_ram.sv line 222
+# Stopped at ../../../Testbench/tb_ram.sv line 222
+# wave zoomfull not supported in batch mode
+#  0: 12153524 c0895e81
+#  2: 8484d609 b1f05663
+#  4: 06b97b0d 46df998d
+#  6: b2c28465 89375212
+#  8: 00f3e301 06d7cd0d
+# 10: 3b23f176 1e8dcd3d
+# 12: 76d457ed 462df78c
+# 14: 7cfde9f9 e33724c6
+# End time: 15:09:39 on Jun 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

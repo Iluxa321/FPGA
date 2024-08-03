@@ -1,0 +1,964 @@
+# do ./test_mbs.tcl
+# tb_port_bus_mem
+# ./../../Testbench
+# D:/intelFPGA_lite/20.1/quartus
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work ./libraries/work/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work_lib ./libraries/work/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap Inc ./libraries/Inc/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap fiftyfivenm_ver ./libraries/fiftyfivenm_ver/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap onchip_flash_0 ./libraries/onchip_flash_0/ 
+# Modifying modelsim.ini
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with -voptargs=+acc option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -voptargs=+acc
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../ip/ufm/simulation/submodules/altera_onchip_flash_util.v -work onchip_flash_0 
+# -- Compiling module altera_onchip_flash_address_range_check
+# -- Compiling module altera_onchip_flash_address_write_protection_check
+# -- Compiling module altera_onchip_flash_s_address_write_protection_check
+# -- Compiling module altera_onchip_flash_a_address_write_protection_check
+# -- Compiling module altera_onchip_flash_convert_address
+# -- Compiling module altera_onchip_flash_convert_sector
+# -- Compiling module altera_onchip_flash_counter
+# 
+# Top level modules:
+# 	altera_onchip_flash_address_range_check
+# 	altera_onchip_flash_address_write_protection_check
+# 	altera_onchip_flash_s_address_write_protection_check
+# 	altera_onchip_flash_a_address_write_protection_check
+# 	altera_onchip_flash_convert_address
+# 	altera_onchip_flash_convert_sector
+# 	altera_onchip_flash_counter
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../ip/ufm/simulation/submodules/altera_onchip_flash.v -work onchip_flash_0 
+# -- Compiling module altera_onchip_flash
+# 
+# Top level modules:
+# 	altera_onchip_flash
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../ip/ufm/simulation/submodules/altera_onchip_flash_avmm_data_controller.v -work onchip_flash_0 
+# -- Compiling module altera_onchip_flash_avmm_data_controller
+# 
+# Top level modules:
+# 	altera_onchip_flash_avmm_data_controller
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../ip/ufm/simulation/ufm.v 
+# -- Compiling module ufm
+# 
+# Top level modules:
+# 	ufm
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../RTL/bus.sv 
+# -- Compiling interface port
+# ** Warning: ./../../RTL/bus.sv(92): (vlog-13314) Defaulting port 'from_ufm' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./../../RTL/bus.sv(95): (vlog-13314) Defaulting port 'from_ram' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./../../RTL/bus.sv(163): (vlog-13314) Defaulting port 'from_ufm' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./../../RTL/bus.sv(166): (vlog-13314) Defaulting port 'from_ram' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# -- Compiling package bus_sv_unit
+# -- Compiling module bus
+# ** Warning: ./../../RTL/bus.sv(92): (vlog-13314) Defaulting port 'from_ufm' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./../../RTL/bus.sv(95): (vlog-13314) Defaulting port 'from_ram' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# -- Compiling module addr_decoder
+# -- Compiling module data_mux
+# ** Warning: ./../../RTL/bus.sv(163): (vlog-13314) Defaulting port 'from_ufm' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./../../RTL/bus.sv(166): (vlog-13314) Defaulting port 'from_ram' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	bus
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../RTL/masterPort.sv 
+# -- Compiling package masterPort_sv_unit
+# -- Compiling interface port
+# -- Compiling module masterPort
+# 
+# Top level modules:
+# 	masterPort
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../RTL/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../RTL/data_ram.sv 
+# -- Compiling module data_ram
+# 
+# Top level modules:
+# 	data_ram
+# End time: 12:51:56 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:56 on Jun 20,2023
+# vlog ./../../Testbench/tb_port_bus_mem.sv 
+# -- Compiling package tb_port_bus_mem_sv_unit
+# -- Compiling interface port
+# -- Compiling module tb_port_bus_mem
+# 
+# Top level modules:
+# 	tb_port_bus_mem
+# End time: 12:51:57 on Jun 20,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# [exec] dev_com
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:57 on Jun 20,2023
+# vlog D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/altera_primitives.v -work altera_ver 
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module dffeas_pr
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_LOW_SCLR_PRIORITY
+# -- Compiling UDP PRIM_GDFF_HIGH
+# -- Compiling UDP PRIM_GDFF_HIGH_SCLR_PRIORITY
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	dffeas_pr
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# End time: 12:51:57 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:57 on Jun 20,2023
+# vlog D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/220model.v -work lpm_ver 
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# End time: 12:51:58 on Jun 20,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:58 on Jun 20,2023
+# vlog D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/sgate.v -work sgate_ver 
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# End time: 12:51:58 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:58 on Jun 20,2023
+# vlog D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/altera_mf.v -work altera_mf_ver 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 12:51:59 on Jun 20,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:59 on Jun 20,2023
+# vlog -sv D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/altera_lnsim.sv -work altera_lnsim_ver 
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module common_28nm_lutram_register
+# -- Compiling module generic_14nm_mlab_cell_impl
+# -- Compiling module common_14nm_lutram_register
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_chainout_adder_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module altera_syncram_forwarding_logic
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module dps_pulse_gen
+# -- Compiling module altera_iopll
+# -- Compiling module dps_pulse_gen_iopll
+# -- Compiling module twentynm_iopll_arlol
+# -- Compiling module fourteennm_altera_iopll
+# -- Compiling module dps_pulse_gen_fourteennm_iopll
+# -- Compiling package fourteennm_iopll_functions
+# -- Compiling module fourteennm_simple_iopll
+# -- Importing package fourteennm_iopll_functions
+# -- Compiling module fourteennm_sub_iopll
+# -- Compiling module twentynm_iopll_ip
+# -- Compiling module altera_iopll_rotation_lcells
+# -- Compiling module altera_pll_dps_lcell_comb
+# -- Compiling module iopll_bootstrap
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_14nm_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# 	altera_iopll
+# 	fourteennm_altera_iopll
+# 	fourteennm_simple_iopll
+# End time: 12:51:59 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:51:59 on Jun 20,2023
+# vlog D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/fiftyfivenm_atoms.v -work fiftyfivenm_ver 
+# -- Compiling UDP FIFTYFIVENM_PRIM_DFFE
+# -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS
+# -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS_HIGH
+# -- Compiling module fiftyfivenm_dffe
+# -- Compiling module fiftyfivenm_mux21
+# -- Compiling module fiftyfivenm_mux41
+# -- Compiling module fiftyfivenm_and1
+# -- Compiling module fiftyfivenm_and16
+# -- Compiling module fiftyfivenm_bmux21
+# -- Compiling module fiftyfivenm_b17mux21
+# -- Compiling module fiftyfivenm_nmux21
+# -- Compiling module fiftyfivenm_b5mux21
+# -- Compiling module fiftyfivenm_latch
+# -- Compiling module fiftyfivenm_routing_wire
+# -- Compiling module fiftyfivenm_lcell_comb
+# -- Compiling module fiftyfivenm_ff
+# -- Compiling module fiftyfivenm_ram_pulse_generator
+# -- Compiling module fiftyfivenm_ram_register
+# -- Compiling module fiftyfivenm_ram_block
+# -- Compiling module fiftyfivenm_mac_data_reg
+# -- Compiling module fiftyfivenm_mac_sign_reg
+# -- Compiling module fiftyfivenm_mac_mult_internal
+# -- Compiling module fiftyfivenm_mac_mult
+# -- Compiling module fiftyfivenm_mac_out
+# -- Compiling module fiftyfivenm_pseudo_diff_out
+# -- Compiling module fiftyfivenm_io_pad
+# -- Compiling module fiftyfivenm_m_cntr
+# -- Compiling module fiftyfivenm_n_cntr
+# -- Compiling module fiftyfivenm_scale_cntr
+# -- Compiling module fiftyfivenm_pll_reg
+# -- Compiling module fiftyfivenm_pll
+# -- Compiling module fiftyfivenm_ena_reg
+# -- Compiling module fiftyfivenm_clkctrl
+# -- Compiling module fiftyfivenm_io_latch
+# -- Compiling module fiftyfivenm_phy_clkbuf
+# -- Compiling module fiftyfivenm_io_clock_divider
+# -- Compiling module fiftyfivenm_io_ibuf
+# -- Compiling module fiftyfivenm_io_obuf
+# -- Compiling module fiftyfivenm_ddio_out
+# -- Compiling module fiftyfivenm_ddio_oe
+# -- Compiling module fiftyfivenm_ddio_in
+# -- Compiling module fiftyfivenm_unvm
+# -- Compiling module fiftyfivenm_asmiblock
+# -- Compiling module fiftyfivenm_chipidblock
+# -- Compiling module fiftyfivenm_oscillator
+# -- Compiling module fiftyfivenm_controller
+# -- Compiling module fiftyfivenm_crcblock
+# -- Compiling module fiftyfivenm_rublock
+# -- Compiling module fiftyfivenm_jtag
+# -- Compiling module fiftyfivenm_adcblock
+# -- Compiling module fiftyfivenm_phase_detector
+# 
+# Top level modules:
+# 	fiftyfivenm_dffe
+# 	fiftyfivenm_mux21
+# 	fiftyfivenm_and1
+# 	fiftyfivenm_and16
+# 	fiftyfivenm_bmux21
+# 	fiftyfivenm_b17mux21
+# 	fiftyfivenm_nmux21
+# 	fiftyfivenm_b5mux21
+# 	fiftyfivenm_latch
+# 	fiftyfivenm_routing_wire
+# 	fiftyfivenm_lcell_comb
+# 	fiftyfivenm_ff
+# 	fiftyfivenm_ram_block
+# 	fiftyfivenm_mac_mult
+# 	fiftyfivenm_mac_out
+# 	fiftyfivenm_pseudo_diff_out
+# 	fiftyfivenm_io_pad
+# 	fiftyfivenm_pll_reg
+# 	fiftyfivenm_pll
+# 	fiftyfivenm_clkctrl
+# 	fiftyfivenm_io_latch
+# 	fiftyfivenm_phy_clkbuf
+# 	fiftyfivenm_io_clock_divider
+# 	fiftyfivenm_io_ibuf
+# 	fiftyfivenm_io_obuf
+# 	fiftyfivenm_ddio_out
+# 	fiftyfivenm_ddio_oe
+# 	fiftyfivenm_ddio_in
+# 	fiftyfivenm_unvm
+# 	fiftyfivenm_asmiblock
+# 	fiftyfivenm_chipidblock
+# 	fiftyfivenm_oscillator
+# 	fiftyfivenm_controller
+# 	fiftyfivenm_crcblock
+# 	fiftyfivenm_rublock
+# 	fiftyfivenm_jtag
+# 	fiftyfivenm_adcblock
+# 	fiftyfivenm_phase_detector
+# End time: 12:52:00 on Jun 20,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:52:00 on Jun 20,2023
+# vlog D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v -work fiftyfivenm_ver 
+# 
+# Top level modules:
+# End time: 12:52:02 on Jun 20,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# [exec] elab
+# vsim -voptargs="+acc" -t ps -L work -L work_lib -L onchip_flash_0 -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver tb_port_bus_mem 
+# Start time: 12:52:02 on Jun 20,2023
+# Loading sv_std.std
+# Loading work.tb_port_bus_mem_sv_unit
+# Loading work.tb_port_bus_mem
+# Loading work.port
+# Loading work.masterPort_sv_unit
+# Loading work.masterPort
+# Loading work.bus_sv_unit
+# Loading work.bus
+# Loading work.addr_decoder
+# Loading work.data_mux
+# Loading work.ufm
+# Loading onchip_flash_0.altera_onchip_flash
+# Loading onchip_flash_0.altera_onchip_flash_avmm_data_controller
+# Loading onchip_flash_0.altera_onchip_flash_address_range_check
+# Loading onchip_flash_0.altera_onchip_flash_convert_address
+# Loading fiftyfivenm_ver.fiftyfivenm_unvm
+# Loading work.data_ram
+# Loading work.ram
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_onchip_flash_block'.  Expected 18, found 17.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_port_bus_mem/mem/onchip_flash_0/altera_onchip_flash_block File: ./../../ip/ufm/simulation/submodules/altera_onchip_flash.v Line: 302
+# ** Warning: (vsim-3722) ./../../ip/ufm/simulation/submodules/altera_onchip_flash.v(302): [TFMPC] - Missing connection for port 'bgpbusy'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '<protected>'.  Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /tb_port_bus_mem/mem/onchip_flash_0/altera_onchip_flash_block/inst/<protected>/<protected>/<protected>/<protected>/<protected> File: D:/intelFPGA_lite/20.1/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v Line: 38
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# tb_port_bus_mem.mem.onchip_flash_0.altera_onchip_flash_block.inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>: 0.01ns: WARNING: SE shows unknown state!
+# FLASH_READY detected
+# tb_port_bus_mem.mem.onchip_flash_0.altera_onchip_flash_block.inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>: 1.00ns: WARNING: YE shows unknown state!
+# tb_port_bus_mem.mem.onchip_flash_0.altera_onchip_flash_block.inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>: 1.00ns: WARNING: XE shows unknown state!
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                 290] -> ADDR = 00000000, READ_DATA = 00001117, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                 630] -> ADDR = 00000004, READ_DATA = 80010113, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                 970] -> ADDR = 00000008, READ_DATA = 23400293, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                1310] -> ADDR = 0000000c, READ_DATA = 40000313, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                1650] -> ADDR = 00000010, READ_DATA = 40c00393, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                1990] -> ADDR = 00000014, READ_DATA = 406383b3, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                2330] -> ADDR = 00000018, READ_DATA = 00000e13, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                2670] -> ADDR = 0000001c, READ_DATA = 007e0e63, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                3010] -> ADDR = 00000020, READ_DATA = 01c28f33, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                3350] -> ADDR = 00000024, READ_DATA = 01c30fb3, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                3690] -> ADDR = 00000028, READ_DATA = 000f4e83, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                4030] -> ADDR = 0000002c, READ_DATA = 01df8023, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                4370] -> ADDR = 00000030, READ_DATA = 001e0e13, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                4710] -> ADDR = 00000034, READ_DATA = fe9ff06f, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                5050] -> ADDR = 00000038, READ_DATA = 40c00313, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                5390] -> ADDR = 0000003c, READ_DATA = 41800393, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                5730] -> ADDR = 00000040, READ_DATA = 406383b3, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                6070] -> ADDR = 00000044, READ_DATA = 00a00e13, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                6410] -> ADDR = 00000048, READ_DATA = 007e0a63, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ WORD <--------
+# [                6750] -> ADDR = 0000004c, READ_DATA = 01c30fb3, DATAEAN = 15
+# -------------------END READ TASK---------------------
+# 
+# -------------------START WRITE TASK---------------------
+# ----> WRITE WORD <--------
+# -------------------END WRITE TASK---------------------
+# 
+# -------------------START READ TASK---------------------
+# ----> READ HALFWORD <--------
+# [                6930] -> ADDR = 00020000, READ_DATA = 00001117, DATAEAN =  3
+# [                7050] -> ADDR = 00020002, READ_DATA = 00000000, DATAEAN = 12
+# [                7170] -> ADDR = 00020004, READ_DATA = 00000113, DATAEAN =  3
+# [                7290] -> ADDR = 00020006, READ_DATA = 00008001, DATAEAN = 12
+# [                7410] -> ADDR = 00020008, READ_DATA = 00000293, DATAEAN =  3
+# [                7530] -> ADDR = 0002000a, READ_DATA = 00002340, DATAEAN = 12
+# [                7650] -> ADDR = 0002000c, READ_DATA = 00000313, DATAEAN =  3
+# [                7770] -> ADDR = 0002000e, READ_DATA = 00004000, DATAEAN = 12
+# [                7890] -> ADDR = 00020010, READ_DATA = 00000393, DATAEAN =  3
+# [                8010] -> ADDR = 00020012, READ_DATA = 000040c0, DATAEAN = 12
+# [                8130] -> ADDR = 00020014, READ_DATA = 000083b3, DATAEAN =  3
+# [                8250] -> ADDR = 00020016, READ_DATA = 00004063, DATAEAN = 12
+# [                8370] -> ADDR = 00020018, READ_DATA = 00000e13, DATAEAN =  3
+# [                8490] -> ADDR = 0002001a, READ_DATA = 00000000, DATAEAN = 12
+# [                8610] -> ADDR = 0002001c, READ_DATA = 00000e63, DATAEAN =  3
+# [                8730] -> ADDR = 0002001e, READ_DATA = 0000007e, DATAEAN = 12
+# [                8850] -> ADDR = 00020020, READ_DATA = 00008f33, DATAEAN =  3
+# [                8970] -> ADDR = 00020022, READ_DATA = 000001c2, DATAEAN = 12
+# [                9090] -> ADDR = 00020024, READ_DATA = 00000fb3, DATAEAN =  3
+# [                9210] -> ADDR = 00020026, READ_DATA = 000001c3, DATAEAN = 12
+# -------------------END READ TASK---------------------
+# 
+# ** Note: $stop    : ./../../Testbench/tb_port_bus_mem.sv(105)
+#    Time: 9410 ns  Iteration: 1  Instance: /tb_port_bus_mem
+# Break in Module tb_port_bus_mem at ./../../Testbench/tb_port_bus_mem.sv line 105
+# Stopped at ./../../Testbench/tb_port_bus_mem.sv line 105
+# wave zoomfull not supported in batch mode
+#  0: 00001117 80010113
+#  2: 23400293 40000313
+#  4: 40c00393 406383b3
+#  6: 00000e13 007e0e63
+#  8: 01c28f33 01c30fb3
+# 10: 000f4e83 01df8023
+# 12: 001e0e13 fe9ff06f
+# 14: 40c00313 41800393
+# 16: 406383b3 00a00e13
+# 18: 007e0a63 01c30fb3
+# 20: 00000000 00000000
+# 22: 00000000 00000000
+# 24: 00000000 00000000
+# 26: 00000000 00000000
+# 28: 00000000 00000000
+# 30: 00000000 
+# End time: 12:52:03 on Jun 20,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 5

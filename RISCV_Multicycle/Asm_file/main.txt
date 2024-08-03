@@ -1,0 +1,26 @@
+.section .data
+A: .word 0xFFAACCBB
+arr_start: .word 1, 2, 3, 4, 5, 6
+arr_and: 
+.section .text
+.global main
+main:
+	lui s0, %hi(A)
+	addi s0, s0, %lo(A)
+	lw s1, 0(s0)
+	lb s2, 0(s0)
+	lb s2, 1(s0)
+	lb s2, 2(s0)
+	lb s2, 3(s0)
+	lb s2, 4(s0)
+	lh s3, 0(s0)
+	lh s3, 1(s0)
+	lh s3, 2(s0)
+	lh s3, 3(s0)
+	jal end_main
+
+end_main:
+	addi x4, zero, 100
+
+	
+
